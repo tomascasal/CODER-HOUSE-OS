@@ -1,7 +1,6 @@
 body{
-    background-color:black;
-    margin-left: 2%;
-    margin-top: 2%;
+    background-color: rgb(10, 10, 10);
+    margin: 0%;
 }
 .texto{
     color:white;}
@@ -25,7 +24,7 @@ header{
     margin-bottom: 0px;
     margin-right: 0px;
     list-style: none;
-    background-color: black;
+    background-color: rgb(10, 10, 10);
 }
 h1{
     color:white;
@@ -66,22 +65,34 @@ main {
 
 
 /* TODO LO QUE ABARCA "HEADER" */
-
-.nav{
-    color:yellow;
-    font-style: italic; 
-    font-weight: bold; 
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 90%;
-    line-height: 30%;
-    margin: 2%;
-    margin-top: 0;
-    padding-top: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 60%;
+.colorheader{
+    background-color: rgb(30, 30, 0);
+}
+.ulnav{
     list-style: none;
-    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+.linav{
+    display: inline-block;
+}
+.anav{
+    color: white;
+    display: block;
+    padding: 10px 20px ;
+    text-decoration: none;
+    font-size: 10px ;
+}
+ul li a:hover{
+    background-color: rgb(50, 50, 10)
+    
+}
+.nav{
+    background-color: rgb(30, 30, 0);
+}
+.logoindex{
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
 /* ....................... */
@@ -155,7 +166,7 @@ main {
     font-family:'Ubuntu', sans-serif;
     text-align: left; 
     line-height: 50px;
-    background-color: black;
+    background-color: rgb(10, 10, 10);
     padding-top: 3%;
 }
 .parrafoUno{
@@ -163,7 +174,7 @@ main {
     font-family:'Ubuntu', sans-serif;
     text-align: left;
     line-height: 10px;
-    background-color: black;
+    background-color: rgb(10, 10, 10);
 }
 .cursos{
     color:white;
@@ -318,7 +329,7 @@ main {
 }
 .formularioAfiliaciones{
     text-align: center;
-    background-color: rgb(3, 3, 3);
+    background-color: rgb(10, 10, 10);
 }
 
 /* ....................... */
@@ -352,14 +363,11 @@ main {
     margin-right: auto;
     margin-bottom: 0%;
 }
-footer {
-    color: white;
-}
 .icons{
     list-style: none;
-    padding-top: 5%;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-left: 60%;
-    font-size: xx-large;
+    margin: 0;
+    padding: 0;
+}
+.lifoo{
+    display: inline-block;
 }
