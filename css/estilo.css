@@ -1,0 +1,365 @@
+body{
+    background-color:black;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.texto{
+    color:white;}
+h2 {
+    color:white;
+}
+button {
+    font-style:calc(100);
+    font-weight: bold;
+    background-color: yellow
+}
+header{
+    color:yellow;
+    font-style: italic; 
+    font-weight: bold; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    line-height: 50px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    list-style: none;
+    background-color: black;
+}
+h1{
+    color:white;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+p {
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: left;
+}
+main {
+    color: white;
+}
+
+
+/* fin de lo que abarca "body" */
+
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+
+
+/* TODO LO QUE ABARCA "HEADER" */
+
+.nav{
+    color:yellow;
+    font-style: italic; 
+    font-weight: bold; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 90%;
+    line-height: 30%;
+    margin: 2%;
+    margin-top: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 60%;
+    list-style: none;
+    background-color: black;
+}
+
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+
+/* TODO LO QUE ABARCA "MAIN" */
+
+
+.titulo{
+    color:white;
+    font-style: italic; 
+    font-weight: bold; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+}
+.subtitulo{
+    color:white;
+    font-style: italic; 
+    font-weight: bold; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* ....................... */
+/* ....................... */
+/* ....................... */
+
+/* TODO LO QUE ABARCA "MAIN INDEX" */
+
+.portadaUnoIndex{
+    padding-top: 2%;
+    padding-right: 0;
+    padding-bottom: 5%;
+    padding-left: 15%;
+}
+.portadaDosIndex{
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+}
+.portadaTresIndex{
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-left: 0;
+}
+.botonAfiliarme{
+    font-size: 2%;
+    font-family:'Ubuntu', sans-serif;
+    border-bottom: none;
+    font-weight: bold;
+    font-size: xx-large;
+    background-color: yellow
+
+}
+.drGirolami{
+    font-size:1%;
+    font-family:'Ubuntu', sans-serif;
+    text-align: left; 
+    line-height: 50px;
+    background-color: black;
+    padding-top: 3%;
+}
+.parrafoUno{
+    font-size:10px;
+    font-family:'Ubuntu', sans-serif;
+    text-align: left;
+    line-height: 10px;
+    background-color: black;
+}
+.cursos{
+    color:white;
+    font-style: italic;
+    font-weight: bold; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    line-height: 50px;
+    padding-top: 10px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    padding-left: 175px;
+}
+.rcp{
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 10%;
+}
+.seguridadVial{
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 20%;
+}
+
+/* ....................... */
+/* ....................... */
+/* ....................... */
+
+/* TODO LO QUE ABARCA "MAIN QUIENES SOMOS" */
+
+.botonesInfo{
+    padding-bottom: 5%;
+    text-align: center;
+    color:yellow;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 10%;
+
+}
+.quienesSomos{
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 2%;
+}
+.aQueNosDedicamos{
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 60%;
+}
+.tapabocas{
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 10%;
+}
+.saludMental{
+    padding-top: 0;
+    padding-right: 0%;
+    padding-bottom: 0;
+    padding-left: 20%;
+}
+
+/* ....................... */
+/* ....................... */
+/* ....................... */
+
+/* TODO LO QUE ABARCA " MAIN CONTACTO" */
+
+.emergencias{
+    padding-top: 2%;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 2%;
+}
+.emergenciasP{
+    padding-top: 0%;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 60%;
+}
+.afiliarme{
+    padding-top: 2%;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 2%;
+}
+.traslados{
+    padding-top: 2%;
+    padding-right: 0;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+.trasladosP{
+    padding-top: 0%;
+    padding-right: 0;
+    padding-bottom: 2%;
+    padding-left: 60%;
+}
+.formularioContacto{
+    padding-top: 0%;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0%;
+    padding-bottom: 5%;
+    text-align: left;
+    color:rgb(10, 10, 10);
+    font-style: italic;
+    font-weight: bold;
+}
+.mapa{
+    padding-top: 2%;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 60%;
+}
+
+/* ....................... */
+/* ....................... */
+/* ....................... */
+
+/* TODO LO QUE ABARCA "MAIN CARTILLA Y ESPECIALIDADES" */
+
+.cartilla{
+    padding-top: 2%;
+    padding-right: 0;
+    padding-bottom: 2%;
+    padding-left: 20%;
+    text-align: center;
+}
+.cartillaFoo{
+    padding-top: 3%;
+    padding-right: 0;
+    padding-bottom: 0%;
+    padding-left: 0%;
+}
+
+/* ....................... */
+/* ....................... */
+/* ....................... */
+
+/* TODO LO QUE ABARCA "MAIN afiliarme" */
+
+.controles{
+    padding: 1%;
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    border-color:rgb(255, 255, 0)
+}
+.formularioAfiliaciones{
+    text-align: center;
+    background-color: rgb(3, 3, 3);
+}
+
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+/* ....................... */
+
+/*todo lo que abarca el "footer */
+
+.copyright{
+    color:white;
+    font-style: italic; 
+    font-weight: bold; 
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 10px;
+    line-height: 50px;
+    text-align: left;
+}
+.logofoo{
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 0%;
+}
+footer {
+    color: white;
+}
+.icons{
+    list-style: none;
+    padding-top: 5%;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 60%;
+    font-size: xx-large;
+}
