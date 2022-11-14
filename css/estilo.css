@@ -1,6 +1,14 @@
-body{
-    background-color: rgb(10, 10, 10);
-    margin: 0%;
+@media screen and (max-width: 768px){
+    html{
+        background-color: rgb(10, 10, 10);
+        margin: 0%;
+    }
+}
+@media screen and (min-width:769px){
+    html{
+        background-color: rgb(10, 10, 10);
+        margin: 0%;
+    }
 }
 .texto{
     color:white;}
