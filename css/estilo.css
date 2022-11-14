@@ -66,12 +66,17 @@ main {
 
 /* TODO LO QUE ABARCA "HEADER" */
 .colorheader{
-    background-color: rgb(30, 30, 0);
+    background-color: rgb(20, 20, 0);
 }
 .ulnav{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    justify-content: end;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 .linav{
     display: inline-block;
@@ -88,11 +93,24 @@ ul li a:hover{
     
 }
 .nav{
-    background-color: rgb(30, 30, 0);
+    background-color: rgb(20, 20, 0);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: end;
 }
-.logoindex{
-    margin-top: 1%;
-    margin-left: 1%;
+.contenedor-logo{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+    background-color: rgb(20, 20, 0);
+}
+.contenedor-logo div a img{
+    margin: 0;
+}
+.logofoo{
+    display: flex;
+    justify-content: left;
 }
 
 /* ....................... */
@@ -153,12 +171,15 @@ ul li a:hover{
     padding-left: 0;
 }
 .botonAfiliarme{
+    padding-left: 46%;
+    text-align: center;
     font-size: 2%;
     font-family:'Ubuntu', sans-serif;
-    border-bottom: none;
+    border: none;
     font-weight: bold;
     font-size: xx-large;
-    background-color: yellow
+    background-color: rgb(10, 10, 10)
+    
 
 }
 .drGirolami{
@@ -177,16 +198,16 @@ ul li a:hover{
     background-color: rgb(10, 10, 10);
 }
 .cursos{
+    display: flex;
+    justify-content: center;
     color:white;
+
     font-style: italic;
     font-weight: bold; 
     font-family: 'Ubuntu', sans-serif;
-    font-size: 50px;
-    line-height: 50px;
-    padding-top: 10px;
-    padding-right: 100px;
-    padding-bottom: 5px;
-    padding-left: 175px;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px
 }
 .rcp{
     padding-top: 0;
@@ -314,7 +335,6 @@ ul li a:hover{
     padding-bottom: 0%;
     padding-left: 0%;
 }
-
 /* ....................... */
 /* ....................... */
 /* ....................... */
@@ -344,6 +364,17 @@ ul li a:hover{
 /* ....................... */
 
 /*todo lo que abarca el "footer */
+.contenedor-footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(20, 20, 0) ;
+}
+.botones-footer{
+    background-color: yellow ;
+    margin: 0%;
+    padding: 0%;
+    border: none;
+}
 
 .copyright{
     color:white;
