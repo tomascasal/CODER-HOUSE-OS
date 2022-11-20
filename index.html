@@ -10,8 +10,9 @@
 	<title>Coder House OS</title>
 </head>
 <body>
+	<div class="grid">
  <!-- fila de logo + nav --> 
-    <header class="contenedor-logo">
+    <header class="contenedor-logo sticky">
 		<!-- LOGO -->
 		<div>            
 			<a href="index.html">
@@ -19,7 +20,6 @@
 			</a>
 		</div>
 		<!-- NAV -->
-		<div>
 			<nav class="nav">
 				<ul class="ulnav">
 					<li class="linav">
@@ -39,37 +39,37 @@
 					</li>
 				</ul>
 			</nav>
-		</div>
     </header>
 <!-- cierre de fila logo + nav -->
 	<!-- cierre de fila logo + nav -->
 	<!--Inicio de encabezado, contendra un slide de imagenes + un formulario y una imagen con una frase relevante del Dr.Girolami -->
-    <main class="contenedor-main">
+    <main class="contenedor-main gridMain">
 		<h1 class="titulo">OS CODER HOUSE</h1>
 		<h2 class="subtitulo">La obra social de los trabajadores remotos</h2>
 		<section>
 			<div>
 				<img class="portadaUnoIndex" src="image//imgdeportada/lab.jpg.jpg" width="300" height="300px"	alt="dos personas en un laboratorio"> <img class="portadaDosIndex" src="image/imgdeportada/parto.jpg.jpg" width="300" height="300px" alt="padre con su hijo recien nacido en brazos"><img class="portadaTresIndex" src="image/imgdeportada/terapia.jpg.jpg" width="300" height="300px" alt="paciente en terapia intensiva rodeado de doctores">
 			</div>
+	    </section>
+		<section>
 			<button class="botonAfiliarme">
 				<a href="pages/afiliarme.html">Quiero afiliarme</a>
 			</button>
-	    </section>
-
+		</section>
 	 <!-- FRASE DE UN DOCTOR + BOTON PARA AFILIARSE  -->
      	<section>
 			<div class="drGirolami">
-				<p>Dr.Girolami Emanuel (Especialista en medicina general y tecnologica)</p>
-					<img src="image/doctores/drgirolami.jpg.jpg" width="250" height="250px" alt="foto del perfil del doctor Girolami">
+				<p class="parrafoIndicador">Dr.Girolami Emanuel (Especialista en medicina general y tecnologica)</p>
+					<img class="imgDoctorGirolami" src="image/doctores/drgirolami.jpg.jpg" width="250" height="250px" alt="foto del perfil del doctor Girolami">
 		   		<p class="parrafoUno">"Los trabajadores remotos son personas con la capacidad de cambiar al mundo, el bienestar de ellos depende de nosotros y es eso en lo que nos enfocamos. Abarcamos una amplia cantidad de practicas y estudios para poder cubrir la necesidad del trabajador"</p>
 			</div>
 	    </section>
 		<!--Cursos de rcp y seguridad vial-->
 		<section>
-			<h1 class="titulo">Cursos de RCP y seguridad vial gratuitos</h1>
+			<h1 class="tituloCurso">Cursos de RCP y seguridad vial gratuitos</h1>
 			<article>
 				<section class="cursos">
-					<h2>Curso de reanimancion cardio pulmonar (RCP) y Curso de seguridad vial</h2>
+					<h2 class="cursoRcpVial" >Curso de reanimancion cardio pulmonar (RCP) y Curso de seguridad vial</h2>
 				</section>
 				<section>
 					<iframe class="rcp" width="300" height="200" src="https://www.youtube-nocookie.com/embed/Q0Pc-avwoMI?start=200" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><iframe class="seguridadVial" width="300" height="200" src="https://www.youtube-nocookie.com/embed/WRdZ0yABfBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -79,8 +79,8 @@
     </main>
 	<!-- inicio de footer  --> 
 	<!-- redes sociales- sitios web externos - boton de contacto-->
-	<footer class="contenedor-footer">
-		<section>
+	<footer class="contenedor-footer gridFooter">
+		<section class="buttonsFoo">
 			<div>
 				<button class="botones-footer">
 					<a href="pages/contacto.html">Contacto</a>
@@ -108,12 +108,13 @@
 				</li>
 			</ul>
 		</div>
-		<div>            
+		<div class="logoFooter">            
 			<a href="index.html">
 				<img class="logofoo" src="image/logos/coderhouselogoamarillo.png" width="150" height="50px" style="background-color: rgb(20, 20, 0)" alt="logo de coder house">
 			</a>
 		</div>
 		<h3 class="copyright">Copyright © SALUD - OS CODER HOUSE 2022. All Rights Reserved.</h3>
 	</footer>
+</div>
 </body>
 </html> 
