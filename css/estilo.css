@@ -399,13 +399,22 @@ ul li a:hover{
 .lifoo{
     display: inline-block;
 }
+
+/* ....................... */
+/* ......APERTURA............... */
+/* .......AREA................ */
+/* ........DE............... */
+/* .......GRIDS................ */
+/* ....................... */
+/* ....................... */
+
 .grid{
     display: grid;
 grid-template-areas:
     "header header header header"
     "main main main main"
     "footer footer footer footer";
-grid-template-columns: 25% 25% 25% 25%;
+grid-template-columns: repeat(4, auto);
 grid-template-rows: repeat(3, auto);
 }
 header{
@@ -417,6 +426,38 @@ main{grid-area:main;}
 footer{
     grid-area:footer;
     padding: 20px 0;}
+
+
+.divLogo{
+    display: grid;
+    grid-template-areas:
+    "imgLogo nav";
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+}
+.gridMain{
+    display: grid;
+    grid-template-areas:
+    "titulo titulo titulo"
+    "subtitulo subtitulo subtitulo"
+    "slide slide slide"
+    "botonAfiliarme botonAfiliarme botonAfiliarme"
+    "drGirolami drGirolami drGirolami"
+    "tituloCurso tituloCurso tituloCurso"
+    "cursos cursos cursos"
+    "cursoRcpVial cursoRcpVial cursoRcpVial"
+    "rcp rcp rcp";
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(9 auto);
+}
+
+/* ....................... */
+/* ......CIERRE............... */
+/* .......AREA................ */
+/* ........DE............... */
+/* .......GRIDS................ */
+/* ....................... */
+/* ....................... */
 
 .sticky{
     position:sticky;
